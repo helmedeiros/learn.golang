@@ -18,8 +18,11 @@ Declaring variables, calling functions, and all the things you need to know befo
 Packages, variables, and functions.
 Learn the basic components of any Go program.
 ```
+
+## Flow control
+
 ```
-Flow control statements: for, if, else, switch and defer
+for, if, else, switch and defer
 Learn how to control the flow of your code with conditionals, loops, switches and defers.
 ```
 ```
