@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//Pi is a raw precision for Math.Pi
 const Pi = 3.14
 
 func main() {
