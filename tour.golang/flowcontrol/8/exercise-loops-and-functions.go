@@ -2,18 +2,23 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
-func sqrt(x float64) float64 {
-	z, w := 1.0, 1.0
-	for i := 0; i < 9; i++ {
-		if w -= (z*z - x) / (2 * z); w != z {
-			z = w
-		}
+func newt(w float64, x float64) float64 {
+	return w - (w*w-x)/(2*w)
+}
+
+func sqrt(x float64) (s float64) {
+	s = 1.0
+
+	for w := newt(s, x); math.Abs(w-s) > 0.0000000001; {
+		s = w
+		w = newt(w, x)
 	}
-	return z
+	return
 }
 
 func main() {
-	fmt.Println(sqrt(9))
+	fmt.Println(sqrt(25))
 }
