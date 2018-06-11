@@ -10,7 +10,7 @@ Some may argue that the best way of learning a new language is:
 
 To achieve good code skills, is very important to be surrounded by other developers. Find a mentor, read lost of code and get your code reviewed.  
 
-Saying that, below you will find not only a list of contents, but also projects to contribute and people to follow. This is my `Golang` learning path.
+Saying that, below you will find not only a list of contents, but also projects to contribute and people to follow. This is my `Golang` learning path -> [trello go path](https://trello.com/b/5O1YRfVC/go-path)
 
 ## Content:
 1. Idiomatic GO:  https://www.youtube.com/watch?v=B-r3Wf_I2Lk (ok)
